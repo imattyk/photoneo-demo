@@ -112,7 +112,6 @@ function Canvas({ plyFile, jsonFile }) {
         }
       });
       camera.position.z = 1;
-      console.log(json);
       animate();
     }
   }, [arrayBuffer, json]);

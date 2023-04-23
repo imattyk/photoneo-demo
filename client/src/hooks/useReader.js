@@ -18,7 +18,6 @@ export function useReader(plyFile, jsonFile) {
       const reader = new FileReader();
       reader.onload = function (event) {
         const json = JSON.parse(event.target.result);
-        console.log(json);
         setJson(json);
       };
       reader.readAsText(jsonFile);
