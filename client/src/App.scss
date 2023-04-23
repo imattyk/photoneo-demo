@@ -1,3 +1,7 @@
+//Components
+@use './Components/Inputs/inputs';
+@use './Components/Canvas/canvas';
+
 .App {
   text-align: center;
 }
