@@ -14,13 +14,13 @@ function Inputs({ setPlyFile, setJsonFile }) {
 
   return (
     <div>
-      <div style={{ padding: '1rem' }}>
-        <label style={{ paddingRight: '1rem' }}>PLY file</label>
+      <div className="input-container">
+        <label>PLY file</label>
         <input type="file" onChange={onPlyFileChange} />
       </div>
 
-      <div style={{ padding: '1rem' }}>
-        <label style={{ paddingRight: '1rem' }}>JSON config</label>
+      <div className="input-container">
+        <label>JSON config</label>
         <input type="file" onChange={onJsonFileChange} />
       </div>
     </div>

@@ -116,9 +116,7 @@ function Canvas({ plyFile, jsonFile }) {
     }
   }, [arrayBuffer, json]);
 
-  return (
-    <div style={{ width: '100vw', height: '80vh' }} ref={containerRef}></div>
-  );
+  return <div className="canvas-container" ref={containerRef}></div>;
 }
 
 Canvas.propTypes = {
