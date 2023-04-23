@@ -1,0 +1,14 @@
+{
+    "editor.renderWhitespace": "none",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "eslint.run": "onSave",
+    "javascript.suggestionActions.enabled": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "git.mergeEditor": false
+  }
+  
