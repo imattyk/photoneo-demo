@@ -9,3 +9,5 @@ To build and run a docker container build docker first by running
 And run it with `docker run -d -p 3000:3000 photoneo-demo`.
 
 Application will be available in the browser at http://localhost:3000/.
+
+Node v16 is required to run localy.
